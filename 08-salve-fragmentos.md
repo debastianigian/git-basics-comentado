@@ -19,11 +19,11 @@ git stash
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Armazena temporariamente as alterações dos arquivos monitorados.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Use para guardar mudanças incompletas sem precisar fazer um commit.
 
 ---
 
@@ -35,11 +35,11 @@ git stash pop
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Restaura as alterações armazenadas mais recentemente no stash.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Use para continuar o trabalho que foi guardado anteriormente.
 
 ---
 
@@ -51,11 +51,11 @@ git stash list
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Lista todos os conjuntos de alterações armazenados no stash.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Use para visualizar as alterações temporariamente guardadas.
 
 ---
 
@@ -67,20 +67,20 @@ git stash drop
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Descarta o conjunto de alterações mais recente do stash.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Use quando não precisar mais das alterações armazenadas.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git stash`
-- [ ] 2. `git stash pop`
-- [ ] 3. `git stash list`
-- [ ] 4. `git stash drop`
+- [x] 1. `git stash`
+- [x] 2. `git stash pop`
+- [x] 3. `git stash list`
+- [x] 4. `git stash drop`
 
 ---
 
