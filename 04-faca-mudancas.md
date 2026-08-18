@@ -19,11 +19,11 @@ git status
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Lista os arquivos novos ou modificados que podem ser commitados.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Use para verificar o estado atual dos arquivos antes de fazer alterações ou commits.
 
 ---
 
@@ -35,11 +35,11 @@ git diff
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Mostra as diferenças nos arquivos que ainda não foram preparados.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Use para revisar as alterações antes de usar git add.
 
 ---
 
@@ -51,11 +51,11 @@ git add [arquivo]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Coloca um arquivo na área de preparação para ser versionado.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Use para preparar as alterações que entrarão no próximo commit.
 
 ---
 
@@ -67,11 +67,11 @@ git diff --staged
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Mostra as diferenças entre os arquivos preparados e suas últimas versões.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Use para conferir o que será incluído no próximo commit.
 
 ---
 
@@ -83,11 +83,11 @@ git reset [arquivo]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Retira o arquivo da área de preparação, mas preserva seu conteúdo.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Use quando quiser tirar um arquivo do staging sem perder suas alterações.
 
 ---
 
@@ -99,22 +99,22 @@ git commit -m "[mensagem descritiva]"
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Grava permanentemente um snapshot das alterações no histórico de versões.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Use depois de preparar os arquivos com git add.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git status`
-- [ ] 2. `git diff`
-- [ ] 3. `git add [arquivo]`
-- [ ] 4. `git diff --staged`
-- [ ] 5. `git reset [arquivo]`
-- [ ] 6. `git commit -m "[mensagem descritiva]"`
+- [x] 1. `git status`
+- [x] 2. `git diff`
+- [x] 3. `git add [arquivo]`
+- [x] 4. `git diff --staged`
+- [x] 5. `git reset [arquivo]`
+- [x] 6. `git commit -m "[mensagem descritiva]"`
 
 ---
 
