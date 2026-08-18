@@ -19,11 +19,12 @@ git config --global user.name "[nome]"
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Define seu nome no Git.
+Esse nome é gravado em cada commit, identificando a autoria.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+--global vale para todos os repositórios da máquina e pode ser sobrescrito por repositório.
 
 ---
 
@@ -35,18 +36,19 @@ git config --global user.email "[endereco-de-email]"
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Define seu e-mail no Git.
+Esse e-mail é gravado em cada commit, identificando a autoria.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+O e-mail é usado para vincular o commit à sua conta do GitHub.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git config --global user.name "[nome]"`
-- [ ] 2. `git config --global user.email "[endereco-de-email]"`
+- [x] 1. `git config --global user.name "[nome]"`
+- [x] 2. `git config --global user.email "[endereco-de-email]"`
 
 ---
 
