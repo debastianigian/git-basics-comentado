@@ -17,11 +17,12 @@
 
 **Para que serve, e quando eu usaria:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Serve para: usar Git/GitHub por interface gráfica.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando usar: quando não quiser usar comandos no terminal.
+Obs.: o endereço antigo redireciona para desktop.github.com.
 
 ---
 
@@ -31,11 +32,12 @@
 
 **Para que serve, e quando eu usaria:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Serve para: usar Git/GitHub por interface gráfica.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando usar: quando não quiser usar comandos no terminal.
+Obs.: o endereço antigo redireciona para desktop.github.com.
 
 ---
 
@@ -45,19 +47,19 @@
 
 **Para que serve, e quando eu usaria:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Serve para: controlar versões dos arquivos.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando usar: sempre que trabalhar com um projeto versionado.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. GitHub para Windows
-- [ ] 2. GitHub para Mac
-- [ ] 3. Git para todas as plataformas
+- [x] 1. GitHub para Windows
+- [x] 2. GitHub para Mac
+- [x] 3. Git para todas as plataformas
 
 ---
 
